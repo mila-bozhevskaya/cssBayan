@@ -1,0 +1,35 @@
+.school {
+  display: flex;
+  align-items: flex-end;
+  font-size: 28px;
+  color: var(--red);
+}
+
+.school__ref {
+  opacity: .6;
+  width: 9.2rem;
+  height: 4rem;
+  transition: .6s;
+}
+
+.school__ref:hover {
+  transition: .6s;
+  opacity: 1;
+}
+
+.school__svg {
+  width: 100%;
+  height: 100%;
+  fill: var(--red);
+}
+
+@media only screen and (max-width: 480px) {
+  .school {
+    font-size: 1.4rem;
+  }
+  
+  .school__ref {
+    width: 6.8rem;
+    height: 2.2rem;
+  }
+}
