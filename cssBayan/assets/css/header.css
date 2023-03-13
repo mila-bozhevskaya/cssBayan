@@ -1,0 +1,12 @@
+.header {
+  width: 100%;
+  padding: 1.5rem 0rem;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.mygit {
+  font-size: 22px;
+  color: var(--red);
+}

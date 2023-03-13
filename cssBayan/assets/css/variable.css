@@ -1,0 +1,26 @@
+html {
+  --white: #FFFFFF;
+  --black: #000000;
+  --yellow: #f48c42;
+  --blue: #4965f1;
+  --grey: #b39d9d;
+  --grey-dark: #B2B2B2;;
+  --light: #e2c5d5;
+  /* --light: #FAFAFA; */
+  --pink: #e7c1c6;
+  --green: #0be11d;
+  --light-yellow: #dcd3c0;
+  --dark: #151212;
+  --dark-second: #4C4C4C;
+  --body-back: #292929;
+  --red: #ec7080;
+
+  --z-0: 0;
+  --z-1: 1;
+  --z-10: 10;
+
+  --width: 95vw;
+  --max-width: 53.125rem;
+  --width-desc: calc(var(--width) - 14rem);
+  --max-width-desc: calc(var(--max-width) - 14rem);
+}
